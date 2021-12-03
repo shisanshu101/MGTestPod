@@ -1,0 +1,36 @@
+PODS:
+  - boost-for-react-native (1.63.0)
+  - DoubleConversion (1.1.5)
+  - Folly (2018.10.22.00):
+    - boost-for-react-native
+    - DoubleConversion
+    - Folly/Default (= 2018.10.22.00)
+    - glog
+  - Folly/Default (2018.10.22.00):
+    - boost-for-react-native
+    - DoubleConversion
+    - glog
+  - glog (0.3.4)
+
+DEPENDENCIES:
+  - Folly (from `/Users/liming/Desktop/MGTestPod/Example/MGTestPod/Folly.podspec`)
+
+SPEC REPOS:
+  trunk:
+    - boost-for-react-native
+    - DoubleConversion
+    - glog
+
+EXTERNAL SOURCES:
+  Folly:
+    :podspec: "/Users/liming/Desktop/MGTestPod/Example/MGTestPod/Folly.podspec"
+
+SPEC CHECKSUMS:
+  boost-for-react-native: 39c7adb57c4e60d6c5479dd8623128eb5b3f0f2c
+  DoubleConversion: e22e0762848812a87afd67ffda3998d9ef29170c
+  Folly: 30e7936e1c45c08d884aa59369ed951a8e68cf51
+  glog: 1de0bb937dccdc981596d3b5825ebfb765017ded
+
+PODFILE CHECKSUM: 3f8a3b576f29c33eeac2b3fc95376b9af8696294
+
+COCOAPODS: 1.11.2
