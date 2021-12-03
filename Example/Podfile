@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'MGTestPod_Example' do
+  pod 'MGTestPod', :path => '../'
+
+  target 'MGTestPod_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
